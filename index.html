@@ -4,9 +4,40 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="simple-grid.css">
 	<title>Document</title>
 </head>
 <body>
-	<h1>Shopping list</h1>
+		<div class="container" >
+				<div class="header" >
+					<div class="col-9">
+						   
+					</div>
+					<div class="center">
+					</div>
+					<h1>Shopping list</h1>
+					<div class="textItem">
+					<span>
+					ENTER ITEMS:	<input type="text" id="first item" class=" text"> PRICE:	<input type="text" id="second item" class="text2">
+					</span>
+					</div>
+					<div class="shop">
+						<input type="submit" id ="shopButton" value=" ADD TO CART"> 
+					</div>
+					<div class="reset">
+					<input type="submit" id="resetButton" value="UPDATE">
+					</div>
+					<div class="total">
+						<input type="submit" id="calculatBtn" value="TOTAL!">
+					</div>
+					<div class="display"></div>
+				<!-- </div>
+				<span class="box"> Items Area:</span>
+			</div> -->
+					</div>
+				</div>
+		</div>
+		<script src="./shopping-list.js" charset="utf-8"></script>
+		<script src="./shopping-list-dom.js" charset="utf-8"></script>				
 </body>
 </html>
